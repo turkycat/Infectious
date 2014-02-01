@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:weightSum="8"
+    tools:context=".GameActivity" >
+
+    <LinearLayout
+        android:id="@+id/DisplayLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7" >
+
+        <turkycat.android.infectious.views.DisplayArea
+            android:id="@+id/displayArea"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:configChanges="orientation" />
+        
+    </LinearLayout>
+    
+    
+    <!-- begin control layout -->
+    <LinearLayout
+        android:id="@+id/controlLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/green"
+        android:paddingTop="2dp" >
+
+        <!--
+              <turkycat.android.infectious.views.ControlArea
+            android:id="@+id/controlArea"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:configChanges="orientation"
+        -->
+
+		<!-- button bar -->
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            style="@android:attr/buttonBarStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/black"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            
+            <!-- individual layouts for each button. manipulating these creates highlight effect on buttons -->
+            <LinearLayout
+                android:id="@+id/buttonHighlight1"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/blacknot" >
+
+                <Button
+                    android:id="@+id/controlButton1"
+                    style="@android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="2dp"
+                    android:background="@layout/gamebutton_selector"
+                    android:visibility="visible" >
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttonHighlight2"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="14dp"
+                android:background="@color/blacknot" >
+
+                <Button
+                    android:id="@+id/controlButton2"
+                    style="@android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="2dp"
+                    android:background="@color/green"
+                    android:visibility="visible" >
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttonHighlight3"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="14dp"
+                android:background="@color/blacknot" >
+
+                <Button
+                    android:id="@+id/controlButton3"
+                    style="@android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="2dp"
+                    android:background="@color/metal"
+                    android:visibility="visible" >
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttonHighlight4"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="14dp"
+                android:background="@color/blacknot" >
+
+                <Button
+                    android:id="@+id/controlButton4"
+                    style="@android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="2dp"
+                    android:background="@color/gum"
+                    android:visibility="visible" >
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttonHighlight5"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="14dp"
+                android:background="@color/blacknot" >
+
+                <Button
+                    android:id="@+id/controlButton5"
+                    style="@android:attr/buttonBarButtonStyle"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="2dp"
+                    android:background="@color/purple"
+                    android:visibility="visible" >
+                </Button>
+            </LinearLayout>
+            
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

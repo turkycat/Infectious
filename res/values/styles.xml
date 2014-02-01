@@ -1,0 +1,65 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    
+    <color name="blacknot">#6B6B6B</color>
+    <color name="pressed_color">#ffffff</color>
+    <color name="steelblue">#0080c0</color>
+
+    <color name="gold">#c3b34b</color>
+    <color name="blue">#51647e</color>
+    <color name="green">#5cc34d</color>
+    <color name="gum">#cf6fcc</color>
+    <color name="metal">#504f4d</color>
+    <color name="purple">#834f80</color>
+
+    <color name="gold_old">#c3b34b</color>
+    <color name="blue_old">#0559D8</color>
+    <color name="green_old">#18E900</color>
+    <color name="gum_old">#FF406B</color>
+    <color name="metal_old">#2c2c2c</color>
+    <color name="purple_old">#660066</color>
+    
+    
+    <color name="orange">#FF9811</color>
+    
+    <style name="ButtonTheme" parent="AppBaseTheme" >
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@layout/button_selector</item>
+        <item name="android:minHeight">43dp</item>
+        <item name="android:minWidth">116dp</item>
+      </style>
+      
+    <!-- 
+    
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:width">150dp</item>
+        <item name="android:height">50dp</item>
+        <item name="android:shadowColor">@color/green</item>
+     -->
+    
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Infectious</string>
+    <string name="gameTitle">Infectious</string>
+    <string name="action_settings">Settings</string>
+    <string name="Button_SinglePlayer">Play!</string>
+    <string name="title_activity_game">Game Activity</string>
+
+</resources>
